@@ -2,7 +2,6 @@
 
 require 'minitest/autorun'
 require 'catfactz'
-require 'pry'
 
 class TestCatfactz < Minitest::Test
   def test_hai
