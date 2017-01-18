@@ -2,11 +2,13 @@
 
 require 'minitest/autorun'
 require 'catfactz'
-require 'pry'
 
 class TestCatfactz < Minitest::Test
-  def test_test
-    # need to fix, set the method to return string instead of nil 
+  def test_hai
     assert_equal "Y HALO THAR WURLD", Catfactz.hai
+  end
+
+  def test_random_fact
+    assert(!nil, Catfactz.factplz)
   end
 end
