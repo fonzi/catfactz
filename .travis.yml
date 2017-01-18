@@ -1,5 +1,7 @@
 langauge: ruby
 rvm:
   - "2.3.0"
+before_install: gem install pry
+install: gem install rails
 script:
   - rake
