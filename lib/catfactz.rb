@@ -1,4 +1,3 @@
-require 'pry'
 class Catfactz
   def self.hai
     'Y HALO THAR WURLD'
